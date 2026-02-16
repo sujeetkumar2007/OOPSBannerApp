@@ -24,14 +24,12 @@ public class OOPSBannerApp{
     // Each line corresponds to a row in the banner for the letters 0, 0, P, S.
     // Using individual print statements for each line.
     public static void main (String[] args){
-        System.out.println("   ***       ***    ******       ***** ");
-        System.out.println(" **   **   **   **  **    **   **   ");
-        System.out.println("**     ** **     ** **     ** **   ");
-        System.out.println("**     ** **     ** **    **   ** ");
-        System.out.println("**     ** **     ** ******       *** ");
-        System.out.println("**     ** **     ** **              ** ");
-        System.out.println("**     ** **     ** **               ** ");
-        System.out.println(" **   **   **   **  **              **");
-        System.out.println("   ***       ***    **         *****");
+        System.out.println("   ***   " + "    ***   " + " ******   " + "   ***** ");
+        System.out.println(" **   ** " + "  **   ** " + " **    ** " + " **      ");
+        System.out.println("**     **" + " **     **" + " **    ** " + "**       ");
+        System.out.println("**     **" + " **     **" + " ******   " + "  *****  ");
+        System.out.println("**     **" + " **     **" + " **       " + "      ** ");
+        System.out.println(" **   ** " + "  **   ** " + " **       " + " **   ** ");
+        System.out.println("   ***   " + "    ***   " + " **       " + "  *****  ");
     }
 }
